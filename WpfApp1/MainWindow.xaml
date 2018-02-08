@@ -14,6 +14,9 @@
         <Button Content="Get Data on BTC-USD" HorizontalAlignment="Left" Margin="170,62,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click"/>
         <ListBox x:Name="asksList" HorizontalAlignment="Left" Height="281" VerticalAlignment="Top" Width="173" Margin="56,87,0,0"/>
         <ListBox x:Name="bidsList" HorizontalAlignment="Left" Height="281" VerticalAlignment="Top" Width="186" Margin="234,87,0,0" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="1.6,331,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" Grid.Column="1"/>
+        <Label Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Label" HorizontalAlignment="Left" Margin="0,388,0,0" VerticalAlignment="Top" Width="509" Height="39" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
